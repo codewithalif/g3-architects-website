@@ -213,6 +213,16 @@ main > section{
   filter: grayscale(100%);
 }
 
+/* footer related styles */
+
+#footer-task{
+  margin: 130px 240px  240px;
+  height: 100px;
+  width: 1440px;
+  align-items: center;
+  justify-content: center;
+}
+
 /* responsive media query (small device) */
 @media screen and (max-width:576px) {
   .navbar,
@@ -247,6 +257,13 @@ main > section{
     margin-left: 20px;
   }
   
+  #footer-task{
+    height: 70px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
 
 }
 
@@ -270,5 +287,13 @@ main > section{
   #experience-badge{
     margin-top: 20px;
     margin-left: 20px;
+  }
+
+  #footer-task{
+    height: 70px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 50px;
   }
 }
